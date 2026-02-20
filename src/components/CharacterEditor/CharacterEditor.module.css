@@ -40,7 +40,7 @@
   position: fixed;
   left: 55%;
   top: 25%;
-  height: 70%;
+  bottom: 5%;
   min-height: 500px;
 }
 
