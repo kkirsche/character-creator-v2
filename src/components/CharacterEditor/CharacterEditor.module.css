@@ -3,7 +3,20 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {}
+.characterEditor::before {
+  content: "";
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+}
+
+.maxWidthWrapper {
+  isolation: isolate;
+}
+
 
 .header {
   max-width: 65%;
